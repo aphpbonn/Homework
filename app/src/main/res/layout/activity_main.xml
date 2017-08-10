@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.tngp17_001.homework1.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textFeaturing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="FEATURING"
+        android:textColor="#97000000"
+        android:textSize="9sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textFeaturing"
+        android:layout_below="@+id/textFeaturing"
+        android:text="ALAN WEISS\nFAST COMPANY\nBON APETTI"
+        android:textColor="#e6ffffff"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="#92000000" />
+
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="12dp"
+        android:text="World's Best Stargazing Site"
+        android:textColor="#edffe7e7"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textNG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textHeader"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="15dp"
+        android:text="National Geographic"
+        android:textColor="#d2ffffff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textNG"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="15dp"
+        android:paddingLeft="9dp"
+        android:text="3 mins"
+        android:textColor="#9affffff"
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>
